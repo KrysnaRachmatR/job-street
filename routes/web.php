@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/home', function () {
+Route::get('/omah', function () {
     return view('landing.pages.home.index');
 });
 
